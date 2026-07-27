@@ -31,7 +31,7 @@ print("Dog Sound:", d.make_sound())
 # 2. Polymorphism: Reference type 'Animal' hai, par object 'Dog' ka hai
 pet: Animal = Dog("Tommy")
 print("Pet Sound (Animal reference se):", pet.make_sound())
-# Isme Ho Kya Raha Hai? (1 Minute Me Samajhiye)
+# Isme Ho Kya Raha Hai?
 # Animal(ABC): Yeh Parent class hai. Isne rule bana diya ki "Jo bhi Animal banega, usko make_sound() method likhna hi padega."
 #
 # Dog: Isne Animal class ko follow kiya aur apna make_sound() define kiya (Woof Woof!).
