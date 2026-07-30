@@ -1,0 +1,5 @@
+numbers = iter([10,20,30])
+print(next(numbers))
+print(next(numbers))
+print(next(numbers))
+print(next(numbers))
